@@ -1,0 +1,88 @@
+
+header, h1 {
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(255, 242, 227);
+    border-radius: 8px;
+}
+
+nav, h3 {
+    width: 100%;
+    font-family: Tahoma, sans-serif;
+    background-color: rgb(253, 248, 242);
+    border-radius: 8px;
+}
+
+.contaninernav {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+#for {
+    text-decoration: dashed;
+}
+
+#if {
+    text-decoration: dashed;
+}
+
+#foo {
+    text-decoration: dashed;
+}
+
+.div-con-fondo {
+           
+            background-image: url('chico\ apuntando\ con\ el\ dedo.jpg'); 
+            background-repeat: no-repeat; 
+            background-size: cover;      
+            background-position: center center; 
+            width: 800px;
+            height: 300px;
+            border: 2px solid #333;
+            margin: 50px auto; 
+            color: white; 
+            text-align: center;
+            padding: 20px;
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+            font-size: 24px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
+            border-radius: 8px;
+}
+
+fieldset {
+    margin-left:  25%;
+    width: 50%;
+    display: block;
+    justify-content: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+}
+
+legend {
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+}
+
+footer {
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
